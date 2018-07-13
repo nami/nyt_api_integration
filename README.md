@@ -10,6 +10,5 @@ Required:
 
 ### Maven
 Add the following dependencies in your [`pom.xml`](https://github.com/pomlego/nyt_api_integration/blob/master/pom.xml)
-file to include encoders and decoders, to extend and augment the Java Collections
-Framework(collection), and data-binding functionality for Jackson.
+file to run these files. 
 
