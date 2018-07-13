@@ -5,11 +5,15 @@ import java.util.HashMap;
 
 public class wordCountObject {
 
+    // instance variables to show keyword, search terms
     String keyword;
     String[] searchTerms;
+    // Hashmap to store wordcount
     HashMap<String, Integer> wordCountMap = new HashMap();
+    // ArrayList to insert articles with keyword
     ArrayList<Article> articles = new ArrayList();
 
+    // getters & setters
     public String getKeyword() {
         return keyword;
     }

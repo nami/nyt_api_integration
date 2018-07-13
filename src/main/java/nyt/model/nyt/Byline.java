@@ -5,10 +5,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Byline {
 
+    // instance variables to map NYT's byline
     String original;
     Person[] person;
     String organization;
 
+    // getters & setters
     public String getOriginal() {
         return original;
     }

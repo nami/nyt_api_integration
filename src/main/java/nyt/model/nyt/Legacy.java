@@ -5,10 +5,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Legacy {
 
+    // instance variables to map NYT's legacy
     String xlarge;
     int xlargewidth;
     int xlargeheight;
 
+    // getters and setters
     public String getXlarge() {
         return xlarge;
     }

@@ -2,10 +2,12 @@ package nyt.model.db;
 
 public class Headers {
 
+    // variables to get id healine & print_headline from NYT
     int id;
     String headline;
     String print_headline;
 
+    // getters and setters
     public int getId() {
         return id;
     }

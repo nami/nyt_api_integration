@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Headline {
 
+    // instance variables to map NYT's headlines
     String main;
     String kicker;
     String content_kicker;
@@ -13,6 +14,7 @@ public class Headline {
     String seo;
     String sub;
 
+    // getters & setters
     public String getMain() {
         return main;
     }

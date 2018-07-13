@@ -12,6 +12,7 @@ public class NYTRoot {
 
     Response response;
 
+    // getters & setters
     public String getStatus() {
         return status;
     }

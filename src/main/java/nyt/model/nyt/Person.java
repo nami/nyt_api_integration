@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Person {
 
+    // variables to map NYT's person
     String firstname;
     String middlename;
     String lastname;
@@ -14,6 +15,7 @@ public class Person {
     String organization;
     int rank;
 
+    // getters & setters
     public String getFirstname() {
         return firstname;
     }

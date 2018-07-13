@@ -5,10 +5,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Meta {
 
+    // instance variable to map NYT's Meta
     int hits;
     int offset;
     int time;
 
+    // getters & setters
     public int getHits() {
         return hits;
     }

@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Multimedia {
 
+    // instance variables to map NYT's Multimedia
     int rank;
     String subtype;
     String caption;
@@ -17,6 +18,7 @@ public class Multimedia {
     String subType;
     String crop_name;
 
+    // getters & setters
     public int getRank() {
         return rank;
     }

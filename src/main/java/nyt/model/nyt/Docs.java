@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Docs {
 
+    // instance variables to map NYT's API
     String web_url;
     String snippet;
     String print_page;
@@ -24,6 +25,7 @@ public class Docs {
     double score;
     String uri;
 
+    // getters & setters
     public String getWeb_url() {
         return web_url;
     }

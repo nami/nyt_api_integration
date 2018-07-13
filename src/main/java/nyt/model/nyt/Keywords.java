@@ -5,11 +5,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Keywords {
 
+    // instance variables to map NYT's keywords
     String name;
     String value;
     int rank;
     String major;
 
+    // getters & setters
     public String getName() {
         return name;
     }
