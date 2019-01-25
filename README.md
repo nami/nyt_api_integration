@@ -1,5 +1,4 @@
 # NYT API Integration 
-### This repo was built to understand how to use RESTful APIs for a coding bootcamp (CodingNomads)
 
 ## Description
 This project uses Spring Framework to make calls to the New York Times (NYT API) to take in data to populate an SQL table. 
